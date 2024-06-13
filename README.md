@@ -1,5 +1,5 @@
 # Weather-Application
-The Weather Application provides real-time weather information based on current location and user-inputted city names.
+The Weather Application is a responsive web app that provides real-time weather updates for the current location and any entered location.
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
