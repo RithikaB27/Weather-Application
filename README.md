@@ -1,14 +1,14 @@
 # Weather-Application
 The Weather Application provides real-time weather information based on current location and user-inputted city names.
 ## Table of Contents
--[Project Overview](#project-overview)
--[Features](#features)
--[Setup](#setup)
--[Usage](#usage)
--[Technologies Used](#technologies-used)
--[File Structure](#file-structure)
--[API Integration](#api-integration)
--[License](#license)
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [File Structure](#file-structure)
+- [API Integration](#api-integration)
+- [License](#license)
 ## Project Overview
 The Weather Application is designed to offer users real-time weather information for any location they search for. It fetches data from the OpenWeather API and displays it in an intuitive and user-friendly interface.
 ## Features
