@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/https://weatherapplication27.netlify.app',  // Make sure this is set correctly
+  base: '/https://weatherapplication27.netlify.app',  
 })
