@@ -21,17 +21,17 @@ The Weather Application is designed to offer users real-time weather information
 - Node.js and npm (Node Package Manager) installed
 - An API key from OpenWeather (https://openweathermap.org/api)
 ### Steps
-1. Clone the repository:
+1. Clone the repository:<br>
    `git clone https://github.com/your-username/weather-app.git`
-2. Navigate to the project directory:
+2. Navigate to the project directory:<br>
    `cd weather-app`
-3. Install the dependencies:
+3. Install the dependencies:<br>
    `npm install`
-4. Create a `.env` file in the root of the project and add your OpenWeather API key:
+4. Create a `.env` file in the root of the project and add your OpenWeather API key:<br>
    `VITE_OPENWEATHER_API_KEY=your_api_key_here`
-5. Start the development server:
+5. Start the development server:<br>
    `npm run dev`
-6. Open the application in your browser:
+6. Open the application in your browser:<br>
    `http://localhost:3000`
 ## Usage
 - Enter a city name in the search bar and click "Search" or press Enter.
@@ -78,3 +78,12 @@ weather-app/
 ├── tailwind.config.js            # Tailwind CSS configuration
 └── vite.config.js                # Vite configuration
 ```
+## API Integration
+To integrate with the OpenWeather API:
+1. Sign up for an API key at [OpenWeather](https://openweathermap.org/).
+2. Store the API key in the `.env` file:<br>
+   `VITE_OPENWEATHER_API_KEY=your_api_key_here`
+3. Use the API key in your application by accessing<br>
+   `import.meta.env.VITE_OPENWEATHER_API_KEY`
+## License
+This project is open for personal and educational use.
