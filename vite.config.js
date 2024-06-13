@@ -2,7 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/WEather-Application/',
   plugins: [react()],
-  base: '/Weather-Application/',  
+  build: {
+    outDir: 'dist'
+  }
 })
-
